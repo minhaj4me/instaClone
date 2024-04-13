@@ -7,7 +7,7 @@
 body{
     background-color: black;
     color: aliceblue;
-    font-family: cursive;
+    font-family: sans-serif;
     scroll-behavior: smooth;
     display: flex;
 }
@@ -392,7 +392,7 @@ height: 20px;
      */
     
         .mainContent{
-            width:70vw;
+            width:60vw;
             position: absolute;
             left: 10vw;
         }
@@ -462,8 +462,8 @@ height: 20px;
             padding: 5px;
             display: inline;
             position: absolute;
-            top: 3px;
-            left: 90px;
+            top: 7px;
+            left: 115px;
         
         }
         
@@ -508,8 +508,8 @@ height: 20px;
 
 
         .suggestMenu{
-        max-width:30vw;
-        min-height:60vh;
+        max-width:35vw;
+        min-height:100vh;
         background-color: #000;
         /* border-left: 1px solid #eff; */
         z-index: 100;
@@ -517,18 +517,59 @@ height: 20px;
         display: flex;
         flex-direction: column;
         /* align-items: center; */
-        right: 0px;
+        right: -27px;
         position: absolute;
-        padding: 20px;
+        padding: 35px;
         /* margin-right: 20px; */
         }
 
 
-        .suggestMenu ul,p{
+        .myProfile{
+            display: flex;
+            /* padding: 20px; */
+        }
+
+        .switchProfile a{
+            text-decoration: none;
+            color: #0095f6;
+        }
+
+        .suggestMenu>p
+       {
+           color:#a8a8a8;
+           margin-bottom: 25px;
+
+       }
+
+
+       .followImage img{
+        border: 2px solid red;
+        border-radius: 50%;
+        width: 10%;
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 10px;
+       }
+
+       .followText p{
+        color: #a8a8a8;    
+       }
+
+
+        .suggestFooterLinks ul{
+
+            list-style: none;
             display: flex;
             flex-direction: row;
-            font-size: 10px;
+            font-size: 0.5rem;
+            gap: 10px;
         }
+        
+        .suggestFooterCopyright p{
+            margin-top: 10px;
+                font-size: 0.5rem;
+                color: #a8a8a8;
+            }
 
 
 }
